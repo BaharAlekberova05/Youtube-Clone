@@ -1,0 +1,614 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Youtube Clone</title>
+</head>
+<!-- aside'a > peer-checked:w-full -->
+<body class="flex h-screen overflow-hidden font-roboto relative">
+    <input type="checkbox" id="hamburger" class="peer ">
+    <aside class="flex flex-col shrink-0 w-[220px] bg-black21 h-screen pr-[20px] text-white hover:overflow-x-auto peer-checked:hidden">
+        <!-- LOGO PART -->
+        <div class="flex items-center pl-[20px] mt-4 mb-7">
+            <label for="hamburger" class="cursor-pointer">
+                <img src="./icons/hambarger.svg" class="mr-[18px] rounded-full hover:bg-black38">
+            </label>
+                            
+            <a href="#"><img src="./thumbnails/logo.svg"></a>
+        </div>
+
+        <!-- LINKS PART 1 -->
+        <div class="flex flex-col">
+            <a href="#" class="flex items-center h-[34px] pl-[20px] hover:bg-black38 hover:font-semibold">
+                <img src="./icons/home.svg" class="mr-[20px]">
+                <span>Home</span>
+            </a>
+            <a href="#" class="flex items-center h-[34px] pl-[20px] hover:bg-black38 hover:font-semibold">
+                <img src="./icons/explore.svg" class="mr-[20px]">
+                <span>Explores</span>
+            </a>
+            <a href="#" class="flex items-center h-[34px] pl-[20px] hover:bg-black38 hover:font-semibold">
+                <img src="./icons/shorts.svg" class="mr-[20px]">
+                <span>Shorts</span>
+            </a>
+            <a href="#" class="flex items-center h-[34px] pl-[20px] hover:bg-black38 hover:font-semibold">
+                <img src="./icons/subscription.svg" class="mr-[20px]">
+                <span>Subscriptions</span>
+            </a>
+        </div>
+
+        <hr class="border border-black38 mt-4 mb-4">
+
+        <!-- LINKS PART 2 -->
+        <div class="flex flex-col">
+            <a href="#" class="flex items-center h-[34px] pl-[20px] hover:bg-black38 hover:font-semibold">
+                <img src="./icons/home.svg" class="mr-[20px]">
+                <span>Library</span>
+            </a>
+            <a href="#" class="flex items-center h-[34px] pl-[20px] hover:bg-black38 hover:font-semibold">
+                <img src="./icons/explore.svg" class="mr-[20px]">
+                <span>History</span>
+            </a>
+            <a href="#" class="flex items-center h-[34px] pl-[20px] hover:bg-black38 hover:font-semibold">
+                <img src="./icons/shorts.svg" class="mr-[20px]">
+                <span>History</span>
+            </a>
+            <a href="#" class="flex items-center h-[34px] pl-[20px] hover:bg-black38 hover:font-semibold">
+                <img src="./icons/subscription.svg" class="mr-[20px]">
+                <span>Watch later</span>
+            </a>
+            <a href="#" class="flex items-center h-[34px] pl-[20px] hover:bg-black38 hover:font-semibold">
+                <img src="./icons/subscription.svg" class="mr-[20px]">
+                <span>Liked videos</span>
+            </a>
+            <a href="#" class="flex items-center h-[34px] pl-[20px] hover:bg-black38 hover:font-semibold">
+                <img src="./icons/subscription.svg" class="mr-[20px]">
+                <span>Show more</span>
+            </a>
+        </div>
+
+        <hr class="border border-black38 mt-4 mb-4">
+
+        <!-- SUBSCRIPTIONS -->
+        <div class="flex flex-col">
+            <h3 class="uppercase text-grayAAA font-semibold ml-[20px] mb-2">Subscriptions</h3>
+
+            <a href="#" class="flex items-center relative h-8 hover:bg-black38 mb-1 hover:font-semibold">
+                <div class="flex">
+                    <img src="./images/car-girl.jpg" class="ml-[20px] mr-[20px] rounded-full size-[22px] object-cover">
+                    <span>Car Girl</span>
+                </div>
+                
+                <div class="bg-blue rounded-full size-[4px] absolute bottom-[14px] right-[14px]"></div>
+            </a>
+            <a href="#" class="flex items-center relative h-8 hover:bg-black38 mb-1 hover:font-semibold">
+                <div class="flex">
+                    <img src="./images/car-girl.jpg" class="ml-[20px] mr-[20px] rounded-full size-[22px] object-cover">
+                    <span>Car Girl</span>
+                </div>
+                
+                <div class="bg-blue rounded-full size-[4px] absolute bottom-[14px] right-[14px]"></div>
+            </a>
+            <a href="#" class="flex items-center relative h-8 hover:bg-black38 mb-1 hover:font-semibold">
+                <div class="flex">
+                    <img src="./images/car-girl.jpg" class="ml-[20px] mr-[20px] rounded-full size-[22px] object-cover">
+                    <span>Car Girl</span>
+                </div>
+                
+                <div class="bg-blue rounded-full size-[4px] absolute bottom-[14px] right-[14px]"></div>
+            </a>
+            <a href="#" class="flex items-center relative h-8 hover:bg-black38 mb-1 hover:font-semibold">
+                <div class="flex">
+                    <img src="./images/car-girl.jpg" class="ml-[20px] mr-[20px] rounded-full size-[22px] object-cover">
+                    <span>Car Girl</span>
+                </div>
+                
+                <div class="bg-blue rounded-full size-[4px] absolute bottom-[14px] right-[14px]"></div>
+            </a>
+            <a href="#" class="flex items-center relative h-8 hover:bg-black38 mb-1 hover:font-semibold">
+                <div class="flex">
+                    <img src="./images/car-girl.jpg" class="ml-[20px] mr-[20px] rounded-full size-[22px] object-cover">
+                    <span>Car Girl</span>
+                </div>
+                
+                <div class="bg-blue rounded-full size-[4px] absolute bottom-[14px] right-[14px]"></div>
+            </a>
+            <a href="#" class="flex items-center relative h-8 hover:bg-black38 mb-1 hover:font-semibold">
+                <div class="flex">
+                    <img src="./images/car-girl.jpg" class="ml-[20px] mr-[20px] rounded-full size-[22px] object-cover">
+                    <span>Car Girl</span>
+                </div>
+                
+                <div class="bg-blue rounded-full size-[4px] absolute bottom-[14px] right-[14px]"></div>
+            </a>
+            <a href="#" class="flex items-center relative h-8 hover:bg-black38 mb-1 hover:font-semibold">
+                <div class="flex">
+                    <img src="./images/car-girl.jpg" class="ml-[20px] mr-[20px] rounded-full size-[22px] object-cover">
+                    <span>Car Girl</span>
+                </div>
+                
+                <div class="bg-blue rounded-full size-[4px] absolute bottom-[14px] right-[14px]"></div>
+            </a>
+            <a href="#" class="flex items-center relative h-8 hover:bg-black38 mb-1 hover:font-semibold">
+                <div class="flex">
+                    <img src="./images/car-girl.jpg" class="ml-[20px] mr-[20px] rounded-full size-[22px] object-cover">
+                    <span>Car Girl</span>
+                </div>
+                
+                <div class="bg-blue rounded-full size-[4px] absolute bottom-[14px] right-[14px]"></div>
+            </a>
+            <a href="#" class="flex items-center relative h-8 hover:bg-black38 mb-1 hover:font-semibold">
+                <div class="flex">
+                    <img src="./images/car-girl.jpg" class="ml-[20px] mr-[20px] rounded-full size-[22px] object-cover">
+                    <span>Car Girl</span>
+                </div>
+                
+                <div class="bg-blue rounded-full size-[4px] absolute bottom-[14px] right-[14px]"></div>
+            </a>
+        </div>
+    </aside>
+
+    <main class="w-[calc(100%-220px)] bg-black18 pl-6 pr-8">
+        <!-- HEADER -->
+        <div class="flex items-center">
+            <!-- LEFT HEADER -->
+            <div class="flex items-center flex-1 justify-center">
+                <div class="w-[534px] h-9 flex items-center border rounded-br-[2px] rounded-tr-[2px] border-black32">
+                    <input type="text" placeholder="Search" class="w-[478px] h-9 outline-none placeholder:pl-[6px] placeholder:text-grayAAA bg-transparent text-white">
+                    <a href="#" class="w-[56px] h-9 bg-black32 flex items-center justify-center rounded-br-[2px] rounded-tr-[2px]">
+                       <img src="./icons/search.svg"> 
+                    </a>
+                </div>
+                <a href="#"><img src="./icons/voice-search.svg" class="ml-2"></a>
+               
+            </div>
+
+            <!-- RIGHT HEADER -->
+            <div class="flex items-center my-[11px]">
+                <a href="#"><img src="./icons/create-1.svg"></a>
+                <a href="#"><img src="./icons/more.svg" class="ml-[20px]"></a>
+                <a href="#"><img src="./icons/create.svg" class="ml-[20px]"></a>
+
+                <!-- PROFILE & TOOLTIP -->
+                <div>
+                    <input type="checkbox" id="profile" class="hidden peer">
+
+                    <label for="profile" class="cursor-pointer">
+                        <img src="./images/car-girl.jpg" class="size-7 rounded-full object-cover ml-6">
+                    </label>
+                    
+                    <!-- USER TOOLTIP -->
+                    <div class="absolute top-4 right-[80px] flex flex-col border border-black38 rounded  bg-[#282828] w-[300px] hidden peer-checked:block">
+                        <div class="flex flex-col text-white p-4">
+                            <div class="flex items-center space-x-5">
+                                <a href="#"><img src="./images/car-girl.jpg" class="size-7 rounded-full object-cover"></a>
+                                <div class="flex flex-col">
+                                    <span class="hover:">Bahar Alekberova</span>
+                                    <a href="#" class="text-[12px] text-blue">Kanalınıza baxın</a>
+                                </div>
+                            </div>
+                            <div>
+                                
+                            </div>
+                        </div>
+
+                        <hr class="border border-[#4b4b4b]">
+
+                        <div class="flex flex-col p-4 text-white space-y-2">
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Google Hesabı</a>
+                            </span>
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Hesablar arasında keçid edin</a>
+                            </span>
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Çıxın</a>
+                            </span>
+                        </div>
+
+                        <hr class="border border-[#4b4b4b]">
+
+                        <div class="flex flex-col p-4 text-white space-y-2">
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">YouTube Studio</a>
+                            </span>
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Satınalmalar və üzvlüklər</a>
+                            </span>
+                        </div>
+
+                        <hr class="border border-[#4b4b4b]">
+
+                        <div class="flex flex-col p-4 text-white space-y-2">
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="">YouTube datanız</a>
+                            </span>
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Görünüş: Cihaz teması</a>
+                            </span>
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Dil: Azərbaycan</a>
+                            </span>
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Limitli rejim: Deaktiv</a>
+                            </span>
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Məkan: Azərbaycan</a>
+                            </span>
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Klaviatura qısayolları</a>
+                            </span>
+                        </div>
+
+                        <hr class="border border-[#4b4b4b]">
+
+                        <div class="flex flex-col p-4 text-white space-y-2">
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Ayarlar</a>
+                            </span>
+                        </div>
+
+                        <hr class="border border-[#4b4b4b]">
+
+                        <div class="flex flex-col p-4 text-white space-y-2">
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Yardım</a>
+                            </span>
+                            <span class="flex">
+                                <img src="./icons/right_arrow.svg" class="mr-3">
+                                <a href="#">Rəy göndərin</a>
+                            </span>
+                        </div>        
+                    </div>
+                </div>   
+            </div>
+        </div>
+
+        <hr class="border border-black38 mt-[7px]">
+
+        <!-- HEADER SCROLL -->
+        <div class="my-[10px] flex items-center space-x-3 hover:overflow-x-auto">
+            <a href="#" class="py-2 px-3 rounded-full bg-white whitespace-nowrap">
+                <span>All</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>Cook Studio</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>UX</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>Case Study</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>Music</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>Bnagla Lofi</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>Tour</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>Saintmartin</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>Tech</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>iPhone 13</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>User Interface Design</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>Computer Programming</span>
+            </a>
+            <a href="#" class="py-2 px-3 border border-black47 rounded-full bg-black38 text-white whitespace-nowrap">
+                <span>Computer Programming</span>
+            </a>
+        </div>
+
+        <hr class="border border-black38 mt-[7px] mb-[20px]">
+
+        <!-- VIDEO GRID -->
+        <div class="grid grid-cols-4 gap-x-3 gap-y-9 text-white overflow-y-auto h-[calc(100vh-150px)]">
+            <!-- CONTENT FLEX -->
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                    
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <div class="mb-[10px]">
+                    <a href="https://youtube.com/shorts/rnlqO_E-hgQ?si=v55QGjwI6K4Cj3em" target="_blank">
+                        <img src="./images/car-girl.jpg">
+                    </a>
+                </div>
+
+                <div class="flex">
+                    <a href="#" class="size-8 mr-[10px] rounded-full shrink-0">
+                        <img src="./images/car-girl.jpg" class="size-8 rounded-full object-cover">
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="font-semibold font-size[14px] mb-[7px]">We don't pray for love, we just pray for cars 😎</span>
+                        <div class="flex items-center">
+                            <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">Land Rover Range Rover</span>
+                            <img src="./icons/verified.svg">
+                        </div>
+                        
+                        <span class="mr-1 text-grayAAA text-[14px] leading-[19px]">1.5 M views &centerdot; 2 days ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>  
+</body>
+</html>
